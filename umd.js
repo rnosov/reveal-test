@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["react"], factory);
 	else if(typeof exports === 'object')
-		exports["react-reveal"] = factory(require("react"));
+		exports["reveal"] = factory(require("react"));
 	else
-		root["react-reveal"] = factory(root["React"]);
+		root["reveal"] = factory(root["React"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_14__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
